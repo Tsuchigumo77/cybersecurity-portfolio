@@ -6,6 +6,6 @@
 - Kali Linux
 ## Screenshots
 
-![Nmap Scan](screenshots/nmap-scan.png)
+![Nmap Scan](VM_Dancing1of5.png)
 
 ![SMB Enumeration](screenshots/smb-enum.png)
