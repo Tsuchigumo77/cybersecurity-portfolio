@@ -6,6 +6,12 @@
 - Kali Linux
 ## Screenshots
 
-![Nmap Scan](screenshots/VM_Dancing%201%20of%205.png)
+![Access Denied Attempts](Access%20denied%20attempts.png)
 
-![SMB Enumeration](screenshots/smb-enum.png)
+![File Retrieval](File%20retrieval.png)
+
+![Nmap Scan](Nmap%20scan.png)
+
+![SMB Share Enumeration](SMB%20share%20enumeration.png)
+
+![Successful Share Access](Successful%20share%20access.png)
