@@ -63,7 +63,7 @@ ELF 64-bit LSB pie executable, x86-64
 
 This indicated that `pass` was a compiled Linux executable rather than a normal text file.
 
-![File Identification](screenshots/Spookypass_1.png)
+![File Identification](Spookypass_1.png)
 
 ---
 
@@ -84,7 +84,7 @@ Before we let you in, you'll need to give us the password:
 
 This indicated that the executable required a password before providing access.
 
-![Program Execution](screenshots/Spookypass_1.png)
+![Program Execution](Spookypass_1.png)
 
 ---
 
@@ -122,7 +122,7 @@ HTB{un0bfusc4t3d_5tr1ng5}
 
 This demonstrated that sensitive information can sometimes be recovered directly from compiled programs when it has been stored as readable strings.
 
-![Flag Discovery](screenshots/Spookypass_3.png)
+![Flag Discovery](Spookypass_3.png)
 
 ---
 
@@ -138,7 +138,7 @@ The output contained a large amount of unreadable characters and binary data.
 
 This happened because `pass` is an ELF executable rather than a text file. The `cat` command simply attempts to print the file's raw contents to the terminal, so compiled machine code and binary data appear as garbled characters.
 
-![Binary Output](screenshots/Spookypass_3.png)
+![Binary Output](Spookypass_4.png)
 
 Using:
 
