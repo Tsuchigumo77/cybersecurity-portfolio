@@ -65,7 +65,7 @@ cat flag.txt
 
 ## Screenshots
 
-- ![Nmap Scan](screenshots/nmap-scan.png)
+- ![Nmap Scan](Screenshots/nmap-scan.png)
 - FTP connection
 - Directory listing
 - Flag retrieval
