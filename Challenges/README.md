@@ -43,7 +43,7 @@ Inside the directory was a file named:
 pass
 ```
 
-[Challenge Extraction](Spookypass_1.png)
+[Challenge Extraction](challenge_extration.png)
 
 ---
 
