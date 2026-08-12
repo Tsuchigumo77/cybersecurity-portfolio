@@ -66,6 +66,7 @@ cat flag.txt
 ## Screenshots
 
 - Nmap scan
+  nmap-scan.png
 - FTP connection
 - Directory listing
 - Flag retrieval
