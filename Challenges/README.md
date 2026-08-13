@@ -136,7 +136,6 @@ The output contained a large amount of unreadable characters and binary data.
 
 This happened because `pass` is an ELF executable rather than a text file. The `cat` command simply attempts to print the file's raw contents to the terminal, so compiled machine code and binary data appear as garbled characters.
 
-![Binary Output](Spookypass_4.png)
 
 Using:
 
