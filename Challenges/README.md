@@ -63,7 +63,7 @@ ELF 64-bit LSB pie executable, x86-64
 
 This indicated that `pass` was a compiled Linux executable rather than a normal text file.
 
-![File Identification](Spookypass_1.png)
+![File Identification](initial_enumeration.png)
 
 ---
 
