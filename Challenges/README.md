@@ -84,8 +84,6 @@ Before we let you in, you'll need to give us the password:
 
 This indicated that the executable required a password before providing access.
 
-![Program Execution](Spookypass_1.png)
-
 ---
 
 ## 4. Inspecting the Binary with `strings`
@@ -108,7 +106,7 @@ s3cr3t_p455_f0r_gh0st5_4nd_gh0ul5
 
 I also noticed other readable strings from the program, including its welcome message.
 
-![Strings Output](screenshots/Spookypass_2.png)
+![Strings Output](cat.txt.png)
 
 ---
 
@@ -122,7 +120,7 @@ HTB{un0bfusc4t3d_5tr1ng5}
 
 This demonstrated that sensitive information can sometimes be recovered directly from compiled programs when it has been stored as readable strings.
 
-![Flag Discovery](Spookypass_3.png)
+![Flag Discovery](flag_retrieval.png)
 
 ---
 
