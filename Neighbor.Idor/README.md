@@ -151,6 +151,35 @@ to proceed with accessing the application.
 
 ![HTML Source Code Inspection](Neighbor2.png)
 
+### 3. Application Analysis
+
+After gaining access to the application, I examined how the website handled user-specific resources.
+
+I paid particular attention to the URL and the parameters used by the application to determine which user's information was displayed.
+
+This behavior suggested that the application relied on a user-controlled reference to retrieve account information.
+
+![Application Analysis](Neighbor3.png)
+
+### 4. IDOR Identification
+
+I examined the URL parameters and tested whether the user reference
+could be modified manually.
+
+By changing the relevant value, I was able to request information
+associated with another user.
+
+![IDOR Testing](Neighbor4.png)
+
+### 5. Flag Discovery
+
+After successfully manipulating the object reference, I gained access
+to information that should have been restricted to another user.
+
+![Successful IDOR Exploitation](Neighbor5.png)
+
+> The flag has been redacted from this documentation.
+
 **Platform:** TryHackMe  
 **Challenge:** Neighbor  
 **Vulnerability:** Insecure Direct Object Reference (IDOR)  
