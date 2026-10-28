@@ -135,7 +135,21 @@ I also gained additional practice with:
 
 Screenshots documenting the reconnaissance, analysis, vulnerability identification, and successful completion of the challenge are included in this repository.
 
----
+### 1. Initial Reconnaissance
+
+I began by navigating to the provided web application. The application
+presented a login page requiring a username and password.
+
+![Neighbor Login Page](Neighbor1.png)
+
+### 2. Source Code Inspection
+
+I used `Ctrl + U` to inspect the HTML source code of the webpage.
+
+Reviewing the source revealed information that helped me determine how
+to proceed with accessing the application.
+
+![HTML Source Code Inspection](Neighbor2.png)
 
 **Platform:** TryHackMe  
 **Challenge:** Neighbor  
